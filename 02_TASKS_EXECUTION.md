@@ -12,7 +12,7 @@ Title: NovaBio — End-to-End Build Tasks with AC/TC/RB
   - RB: fallback to last known good config.
 
 ## B. Data Layer
-- [ ] B1 Postgres schema + migrations
+- [x] B1 Postgres schema + migrations  —  2025-10-22T21:10:00Z  —  sha:4d5ee2b
   - AC: entities from spec created; foreign keys; indexes; unique constraints; soft delete where needed.
   - TC: migration up/down works; seed data loads.
   - RB: roll back migration safely.

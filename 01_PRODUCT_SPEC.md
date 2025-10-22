@@ -190,4 +190,5 @@ All tables include `created_at`, `updated_at`. PII follows encryption at rest wh
 ## 14. Changelog
 - A1: Initial monorepo with Next.js 15 + Laravel 11, Docker Compose, CI/CD pipeline — [8bc5fec](https://github.com/ashio-git/novabio/commit/8bc5fec)
 - A2: Config management with Zod/Laravel validation, backup/rollback scripts — [63da815](https://github.com/ashio-git/novabio/commit/63da815)
+- B1: Complete Postgres schema with 19 tables, migrations, seeders, rollback — [4d5ee2b](https://github.com/ashio-git/novabio/commit/4d5ee2b)
 - v1.0.0: initial complete release as per spec.
