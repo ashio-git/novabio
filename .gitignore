@@ -1,0 +1,16 @@
+node_modules
+.next
+.turbo
+dist
+build
+coverage
+*.log
+.env*.local
+.DS_Store
+vendor
+storage/logs
+storage/framework/cache
+storage/framework/sessions
+storage/framework/views
+bootstrap/cache
+.phpunit.result.cache
