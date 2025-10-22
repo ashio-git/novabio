@@ -6,7 +6,7 @@ Title: NovaBio — End-to-End Build Tasks with AC/TC/RB
   - AC: mono-repo with `apps/web` (Next.js) and `apps/api` (Laravel), Dockerized, CI runs tests, lint, typecheck, build.
   - TC: push triggers pipeline; images built; staging deploy works.
   - RB: revert to previous image; rollout paused via flag.
-- [ ] A2 Config management
+- [x] A2 Config management  —  2025-10-22T21:02:00Z  —  sha:63da815
   - AC: `.env.example` complete; secrets via Vault; env validation on boot.
   - TC: invalid config halts boot with clear message.
   - RB: fallback to last known good config.
