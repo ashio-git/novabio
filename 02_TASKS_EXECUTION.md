@@ -16,7 +16,7 @@ Title: NovaBio — End-to-End Build Tasks with AC/TC/RB
   - AC: entities from spec created; foreign keys; indexes; unique constraints; soft delete where needed.
   - TC: migration up/down works; seed data loads.
   - RB: roll back migration safely.
-- [ ] B2 Redis + queues
+- [x] B2 Redis + queues  —  2025-10-22T21:15:00Z  —  sha:a7df3a9
   - AC: named queues; backoff; dead-letter.
   - TC: simulate failure; job retried; dead-letter visible.
   - RB: drain/requeue script exists.
