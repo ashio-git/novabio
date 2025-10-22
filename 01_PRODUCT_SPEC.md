@@ -188,4 +188,5 @@ All tables include `created_at`, `updated_at`. PII follows encryption at rest wh
 - SLO: 99.9% public site availability, 99.5% dashboard.
 
 ## 14. Changelog
+- A1: Initial monorepo with Next.js 15 + Laravel 11, Docker Compose, CI/CD pipeline — [8bc5fec](https://github.com/ashio-git/novabio/commit/8bc5fec)
 - v1.0.0: initial complete release as per spec.

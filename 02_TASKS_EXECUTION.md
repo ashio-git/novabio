@@ -2,7 +2,7 @@
 Title: NovaBio — End-to-End Build Tasks with AC/TC/RB
 
 ## A. Project Bootstrap
-- [ ] A1 Repo, CI/CD, environments
+- [x] A1 Repo, CI/CD, environments  —  2025-10-22T20:58:00Z  —  sha:8bc5fec
   - AC: mono-repo with `apps/web` (Next.js) and `apps/api` (Laravel), Dockerized, CI runs tests, lint, typecheck, build.
   - TC: push triggers pipeline; images built; staging deploy works.
   - RB: revert to previous image; rollout paused via flag.
